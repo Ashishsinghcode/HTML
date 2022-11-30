@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form</title>
+</head>
+<body>
+    <form action="welcome.html" method="post">
+        <table>
+            <tr>
+                <th>Refrence no.</th>
+                <th><input type="Number" name="ref" value="123456" readonly ></th>
+            </tr>
+            <tr>
+                <th>Name</th>
+                <th><input type="text" name="name" required></th>
+            </tr>
+            <tr>
+                <th>E-mail</th>
+                <th><input type="email" name="email"></th>
+            </tr>
+            <tr>
+                <th>Password</th>
+                <th><input type="password" name="password"></th>
+            </tr>
+            <tr>
+                <th>Contact</th>
+                <th><input type="Number" name="contact"></th>
+            </tr>
+            <tr>
+                <th>DOB</th>
+                <th><input type="date" name="DOB"></th>
+            </tr>
+            <tr>
+                <th>Gender</th>
+                <th><input type="radio" name="Gender" value="Male" checked>Male
+                    <input type="radio" name="Gender" value="Female">Female  </th>
+            </tr>
+            <tr>
+                <th>Country</th>
+                <th><select>
+                    <option value="" selected disabled>select country</option>
+                    <option value="91">India</option>
+                    <option value="1">US</option>
+                    <option value="55">Canada</option>
+
+                </select></th>
+            </tr>
+            <tr>
+                <th>T&C</th>
+                <th><input type="checkbox" name="TC" value="Aggreed"> check this box to continue..</th>
+            </tr>
+            <tr>
+                <th>Address</th>
+                <th><textarea name="Address" cols="25" rows="4"></textarea></th>
+            </tr>
+            <tr>
+                <th><button type="submit">Submit</button></th>
+                <th><button type="reset">Cancel</button></th>
+                
+            </tr>
+        </table>
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,71 @@
+
+.head1,.head2{
+    margin-left: 50px;
+}
+.head3{
+    color:aquamarine;
+
+}
+.input1{
+    background-color: cornflowerblue;
+}
+.input2{
+    background-color: red;
+    margin-bottom: 20px;
+    border-radius: 10px;;
+    border-color: white;
+}
+.para1,.para2,.para3{
+    font-size:x-small;
+}
+.div1{
+    
+    height:80px;
+    width:100%;
+    background-color: red;
+    color:white;
+    margin-bottom: 20px;;
+}
+.head5,.para4{
+    margin-top: 5px;
+    text-align: center;
+}
+.div2{
+    width:25%;
+    float:left;
+}
+.div3{
+    width:70%;
+    float:left;
+}
+a:link{
+    color:red;
+}
+a:visited{
+    color: aqua;
+}
+input:hover{
+    background-color: aqua;
+}
+.div4{
+    height:80px;
+    width:100%;
+    background-color: aqua;
+}
+.div5{
+    width:20%;
+    float: left;
+}
+.div6{
+    width:55%;
+    float: left;
+}
+.div7{
+    width:20%;
+    float: left;
+}
+.input3{
+    background-color: whitesmoke;
+    border-radius: 10px;
+
+}
